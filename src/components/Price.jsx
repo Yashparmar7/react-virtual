@@ -14,7 +14,7 @@ const Price = () => {
                         <p className="text-3xl mb-8">
                             {option.title}
                             {option.title === "Pro" && (
-                                <span className="bg-gradient-to-r from-orange-500 to-red-400 text-transparent bg-clip-text text-xl mb-4 ml-2">(Most Popular)</span>
+                                <span className="bg-gradient-to-r from-purple-500 to-blue-400 text-transparent bg-clip-text text-xl mb-4 ml-2">(Most Popular)</span>
                             )}
                         </p>
                         <p className="mb-8">
@@ -29,7 +29,7 @@ const Price = () => {
                                 </li>
                             ))}
                         </ul>
-                        <a href="#" className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-gradient-to-r from-orange-500 to-orange-800 border  border-orange-900 rounded-lg transition duration-200">Subscribe</a>
+                        <a href="#" className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-gradient-to-r from-purple-500 to-purple-800 border  border-purple-900 rounded-lg transition duration-200">Subscribe</a>
                     </div>
 
                 </div>

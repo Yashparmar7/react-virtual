@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Yashparmar7.github.io/my-app",
   "name": "virtualr",
   "private": true,
   "version": "0.0.0",
@@ -11,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "lucide-react": "^0.417.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
